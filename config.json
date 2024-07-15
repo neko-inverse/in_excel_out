@@ -1,0 +1,40 @@
+{
+  "customComponentItems": {
+    "Downloader": {
+      "name": "Downloader",
+      "imagePath": "preview/downloader.png",
+      "description": "导出excel自定义组件",
+      "itemInputs": [
+        {
+          "fieldName": "writeXlsxFileConfig",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "file_name",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "style",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "show_text",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "callback_url",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "actionflow_name",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "actionflow_payload",
+          "type": "TEXT"
+        }
+      ]
+    }
+  },
+  "version": "0.0.0"
+}
